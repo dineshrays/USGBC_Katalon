@@ -15,5 +15,9 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.freeformatter.com')
+WebUI.navigateToUrl('https://new.usgbc.org/')
+
+WebUI.click(findTestObject('Object Repository/Store_Apps/Page_USGBC homepage  USGBC/a_Store'))
+
+WebUI.click(findTestObject('Object Repository/Store_Apps/Page_Store  U.S. Green Building Cou/img'))
 
