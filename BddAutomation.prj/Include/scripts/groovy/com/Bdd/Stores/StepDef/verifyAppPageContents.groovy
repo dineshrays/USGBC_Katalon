@@ -189,5 +189,249 @@ class verifyAppPageContents {
 
 	}
 
+	//-------------------------Scenario-A3---------------
+
+	@Given("User can see the Categories List with checkbox option")
+	def UsercanseetheCategoriesListwithcheckboxoption() {
+		try {
+			boolean myResult = WebUI.verifyElementPresent(findTestObject('Object Repository/Apps_Edu_Exam/Page_U.S. Green Building Council/ul_AppsEducationExamsGivingHar'))
+
+			if(myResult) {
+				println "User can see Education Image"
+			}
+			else {
+				println "User cannot see Education Image"
+			}
+		}
+		catch (Exception ex) {
+			println "Not Redirected to Education Page"
+		}
+	}
+
+	@When("Select on EDUCATION and EXAMS")
+	def SelectonEDUCATIONandEXAMS() {
+		try {
+
+			WebUI.click(findTestObject('Object Repository/Apps_Edu_Exam/Page_U.S. Green Building Council/input_Education_category'),20)
+
+			WebUI.click(findTestObject('Object Repository/Apps_Edu_Exam/Page_U.S. Green Building Council/input_Exams_category'),20)
+			println("Button Click Response  : ");
+		}
+		catch (Exception ex) {
+			println("Button not found in the URL , Test Failed");
+		}
+	}
+
+	@Then("User can see the selected categories page with all the product which is present in APPS, EDUCATION and EXAMS")
+	def Usercanseetheselectedcategoriespagewithalltheproductwhichispresentinselectedcategories() {
+		try {
+			boolean myResult =  WebUI.verifyElementPresent(findTestObject('Object Repository/Apps_Edu_Exam/Page_U.S. Green Building Council/div_.bg-grid .bg-entry .course'))
+			if(myResult) {
+				println "Contents loaded for Education button"
+			}
+			else {
+				println "Contents not found for Education  Button"
+			}
+		}
+		catch (Exception ex) {
+			println "Not Redirected to Education Page"
+		}
+	}
+
+	//------------------------------Scenario A4-------------------------
+
+	@When("Select on EDUCATION and GIVING")
+	def SelectonEDUCATIONandGIVING() {
+		try {
+
+			WebUI.click(findTestObject('Object Repository/Apps_Edu_Giving/Page_U.S. Green Building Council/input_Education_category'),20)
+
+			WebUI.click(findTestObject('Object Repository/Apps_Edu_Giving/Page_U.S. Green Building Council/input_Giving_category'),20)
+			println("Button Click Response  : ");
+		}
+		catch (Exception ex) {
+			println("Button not found in the URL , Test Failed");
+		}
+	}
+
+	@Then("User can see the selected categories page with all the product which is present in APPS, EDUCATION and GIVING")
+	def UsercanseetheselectedcategoriespagewithalltheproductwhichispresentinAPPSEDUCATIONandGIVING() {
+		try {
+			boolean myResult =  WebUI.verifyElementPresent(findTestObject('Object Repository/Apps_Edu_Giving/Page_U.S. Green Building Council/div_.bg-grid .bg-entry .course'))
+			if(myResult) {
+				println "Contents loaded for Education button"
+			}
+			else {
+				println "Contents not found for Education  Button"
+			}
+		}
+		catch (Exception ex) {
+			println "Not Redirected to Education Page"
+		}
+	}
+
+	//------------Scenario A5-------------------------
+	@When("Select on EDUCATION and HARDWARE")
+	def SelectonEDUCATIONandHARDWARE() {
+		try {
+
+			WebUI.click(findTestObject('Object Repository/Apps_Edu_Hardware/Page_U.S. Green Building Council/input_Education_category'),20)
+
+			WebUI.click(findTestObject('Object Repository/Apps_Edu_Hardware/Page_U.S. Green Building Council/input_Hardware_category'),20)
+
+			println("Button Click Response  : ");
+		}
+		catch (Exception ex) {
+			println("Button not found in the URL , Test Failed");
+		}
+	}
+
+	@Then("User can see the selected categories page with all the product which is present in APPS, EDUCATION and HARDWARE")
+	def UsercanseetheselectedcategoriespagewithalltheproductwhichispresentinAPPSEDUCATIONandHARDWARE() {
+		try {
+			boolean myResult =  WebUI.verifyElementPresent(findTestObject('Object Repository/Apps_Edu_Hardware/Page_U.S. Green Building Council/div_.bg-grid .bg-entry .course'))
+			if(myResult) {
+				println "Contents loaded for Education button"
+			}
+			else {
+				println "Contents not found for Education  Button"
+			}
+		}
+		catch (Exception ex) {
+			println "Not Redirected to Education Page"
+		}
+	}
+
+	//-----------------Scenario A6-------------------
+
+	@When("Select on EDUCATION and MAGAZINES")
+	def SelectonEDUCATIONandMAGAZINES() {
+		try {
+
+			WebUI.click(findTestObject('Object Repository/Apps_Edu_Magazine/Page_U.S. Green Building Council/input_Education_category'),20)
+
+			WebUI.click(findTestObject('Object Repository/Apps_Edu_Magazine/Page_U.S. Green Building Council/input_Magazines_category'),20)
+			println("Button Click Response  : ");
+		}
+		catch (Exception ex) {
+			println("Button not found in the URL , Test Failed");
+		}
+	}
+
+	@Then("User can see the selected categories page with all the product which is present in APPS, EDUCATION and MAGAZINES")
+	def UsercanseetheselectedcategoriespagewithalltheproductwhichispresentinAPPSEDUCATIONandMAGAZINES() {
+		try {
+			boolean myResult =  WebUI.verifyElementPresent(findTestObject('Object Repository/Apps_Edu_Magazine/Page_U.S. Green Building Council/div_.bg-grid .bg-entry .course'))
+			if(myResult) {
+				println "Contents loaded for Education button"
+			}
+			else {
+				println "Contents not found for Education  Button"
+			}
+		}
+		catch (Exception ex) {
+			println "Not Redirected to Education Page"
+		}
+	}
+
+	//---------------------Scenario A7-------------
+
+	@When("Select on EDUCATION and MEMBERSHIP")
+	def SelectonEDUCATIONandMEMBERSHIP() {
+		try {
+
+			WebUI.click(findTestObject('Object Repository/Apps_Edu_Membership/Page_U.S. Green Building Council/input_Education_category'),20)
+
+			WebUI.click(findTestObject('Object Repository/Apps_Edu_Membership/Page_U.S. Green Building Council/input_Membership_category'),20)
+			println("Button Click Response  : ");
+		}
+		catch (Exception ex) {
+			println("Button not found in the URL , Test Failed");
+		}
+	}
+
+	@Then("User can see the selected categories page with all the product which is present in APPS, EDUCATION and MEMBERSHIP")
+	def UsercanseetheselectedcategoriespagewithalltheproductwhichispresentinAPPSEDUCATIONandMEMBERSHIP() {
+		try {
+			boolean myResult =  WebUI.verifyElementPresent(findTestObject('Object Repository/Apps_Edu_Membership/Page_U.S. Green Building Council/div_.bg-grid .bg-entry .course'))
+			if(myResult) {
+				println "Contents loaded for APPS, EDUCATION and MEMBERSHIP"
+			}
+			else {
+				println "Contents not found for APPS, EDUCATION and MEMBERSHIP"
+			}
+		}
+		catch (Exception ex) {
+			println "Not Redirected to APPS, EDUCATION and MEMBERSHIP"
+		}
+	}
+	//--------------------------------Scenario A8--------------------------------------
+
+	@When("Select on EDUCATION and MERCHANDISE")
+	def SelectonEDUCATIONandMERCHANDISE() {
+		try {
+
+			WebUI.click(findTestObject('Object Repository/Apps_Edu_Merchandise/Page_U.S. Green Building Council/input_Education_category'))
+
+			WebUI.click(findTestObject('Object Repository/Apps_Edu_Merchandise/Page_U.S. Green Building Council/input_Merchandise_category'))
+
+			println("Button Click Response  : ");
+		}
+		catch (Exception ex) {
+			println("Button not found in the URL , Test Failed");
+		}
+	}
+
+	@Then("User can see the selected categories page with all the product which is present in APPS, EDUCATION and MERCHANDISE")
+	def UsercanseetheselectedcategoriespagewithalltheproductwhichispresentinAPPSEDUCATIONandMERCHANDISE() {
+		try {
+			boolean myResult = WebUI.verifyElementPresent(findTestObject('Object Repository/Apps_Edu_Merchandise/Page_U.S. Green Building Council/div_.bg-grid .bg-entry .course'))
+			if(myResult) {
+				println "Contents loaded for APPS, EDUCATION and MERCHANDISE"
+			}
+			else {
+				println "Contents not found for APPS, EDUCATION and MERCHANDISE"
+			}
+		}
+		catch (Exception ex) {
+			println "Not Redirected to APPS, EDUCATION and MERCHANDISE"
+		}
+	}
+
+	//--------------------------------Scenario A9--------------------------------------
+
+
+	@When("Select on EDUCATION and PUBLICATIONS")
+	def SelectonEDUCATIONandPUBLICATIONS() {
+		try {
+
+			WebUI.click(findTestObject('Object Repository/Apps_Edu_Membership/Page_U.S. Green Building Council/input_Education_category'),20)
+
+			WebUI.click(findTestObject('Object Repository/Apps_Edu_Membership/Page_U.S. Green Building Council/input_Membership_category'),20)
+			println("Button Click Response  : ");
+		}
+		catch (Exception ex) {
+			println("Button not found in the URL , Test Failed");
+		}
+	}
+
+	@Then("User can see the selected categories page with all the product which is present in APPS, EDUCATION and PUBLICATIONS")
+	def UsercanseetheselectedcategoriespagewithalltheproductwhichispresentinAPPSEDUCATIONandPUBLICATIONS() {
+		try {
+			boolean myResult =  WebUI.verifyElementPresent(findTestObject('Object Repository/Apps_Edu_Membership/Page_U.S. Green Building Council/div_.bg-grid .bg-entry .course'))
+			if(myResult) {
+				println "Contents loaded for APPS, EDUCATION and PUBLICATIONS"
+			}
+			else {
+				println "Contents not found for APPS, EDUCATION and PUBLICATIONS"
+			}
+		}
+		catch (Exception ex) {
+			println "Not Redirected to APPS, EDUCATION and PUBLICATIONS"
+		}
+	}
+
+
+
 
 }
