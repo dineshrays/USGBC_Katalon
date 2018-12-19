@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>sample</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>00c5f1f4-a802-4ed9-be18-bc4a6b3dd716</testCaseGuid>
+   <variable>
+      <defaultValue>'QA'</defaultValue>
+      <description></description>
+      <id>19f7893e-d30b-45c4-92c7-aea52a355af4</id>
+      <masked>false</masked>
+      <name>ENV</name>
+   </variable>
+</TestCaseEntity>

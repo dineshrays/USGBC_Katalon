@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="409.371403">
+<testcase classname="To Verify the content of Apps category in USGBC Online Portal." name="To verify the contents in the Apps page" time="152.647324">
+<system-out><![CDATA[Given User is to navigate to USGBC website..................................passed
+And User can see the Store link to navigate to the Store page...............passed
+When Click on the Store link................................................passed
+Then User can see the Store page with all the contents......................passed
+Given User can see the APPS Image link to navigate to the APPS page.........passed
+When Click on the APPS Image link...........................................passed
+Then User can see the APPS page with all the product which is present in APPS.passed
+]]></system-out>
+</testcase>
+<testcase classname="To Verify the content of Apps category in USGBC Online Portal." name="To verify the contents in the App page when searched for a product" time="61.599593">
+<system-out><![CDATA[Given User is to navigate to USGBC website..................................passed
+And User can see the Store link to navigate to the Store page...............passed
+When Click on the Store link................................................passed
+Then User can see the Store page with all the contents......................passed
+Given Click on the APPS Image link..........................................passed
+And user can see the search bar to search for products......................passed
+When user give tap in search bar to search..................................passed
+And user click on the search image..........................................passed
+Then user can see related products as the tap...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="To Verify the content of Apps category in USGBC Online Portal." name="To verify the contents in the App page when searched for a product 2" time="55.874105">
+<system-out><![CDATA[Given User is to navigate to USGBC website..................................passed
+And User can see the Store link to navigate to the Store page...............passed
+When Click on the Store link................................................passed
+Then User can see the Store page with all the contents......................passed
+Given Click on the APPS Image link..........................................passed
+And user can see the search bar to search for products......................passed
+When user give trane in search bar to search................................passed
+And user click on the search image..........................................passed
+Then user can see related products as the trane.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="To Verify the content of Apps category in USGBC Online Portal." name="To verify the contents in the App page when searched for a product 3" time="56.44237">
+<system-out><![CDATA[Given User is to navigate to USGBC website..................................passed
+And User can see the Store link to navigate to the Store page...............passed
+When Click on the Store link................................................passed
+Then User can see the Store page with all the contents......................passed
+Given Click on the APPS Image link..........................................passed
+And user can see the search bar to search for products......................passed
+When user give Autodesk in search bar to search.............................passed
+And user click on the search image..........................................passed
+Then user can see related products as the Autodesk..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="To Verify the content of Apps category in USGBC Online Portal." name="To verify the contents in the App page when searched for a product 4" time="82.808011">
+<system-out><![CDATA[Given User is to navigate to USGBC website..................................passed
+And User can see the Store link to navigate to the Store page...............passed
+When Click on the Store link................................................passed
+Then User can see the Store page with all the contents......................passed
+Given Click on the APPS Image link..........................................passed
+And user can see the search bar to search for products......................passed
+When user give tracker in search bar to search..............................passed
+And user click on the search image..........................................passed
+Then user can see related products as the tracker...........................passed
+]]></system-out>
+</testcase>
+</testsuite>

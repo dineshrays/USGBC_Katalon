@@ -1,0 +1,672 @@
+[
+  {
+    "line": 10,
+    "elements": [
+      {
+        "line": 12,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 89210155273,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is to navigate to USGBC website",
+            "match": {
+              "location": "verifyAppPageContents.GivenUserIsToNavigateToUSGBCWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 363445308,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User can see the Store link to navigate to the Store page",
+            "match": {
+              "location": "verifyAppPageContents.GivenUserCanSeeTheStoreLinkToNavigateToTheStorePage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47894808523,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Click on the Store link",
+            "match": {
+              "location": "verifyAppPageContents.WhenClickOnTheStoreLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1295859,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User can see the Store page with all the contents",
+            "match": {
+              "location": "verifyAppPageContents.ThenUserCanSeeTheStorePageWithAllTheContents()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "To verify the contents in the Apps page",
+        "description": "",
+        "id": "to-verify-the-content-of-apps-category-in-usgbc-online-portal.;to-verify-the-contents-in-the-apps-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1279622,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User can see the APPS Image link to navigate to the APPS page",
+            "match": {
+              "location": "verifyAppPageContents.UsercanseetheAPPSImagelinktonavigatetotheAPPSpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15124412625,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Click on the APPS Image link",
+            "match": {
+              "location": "verifyAppPageContents.ClickontheAPPSImagelink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1202218,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User can see the APPS page with all the product which is present in APPS",
+            "match": {
+              "location": "verifyAppPageContents.UsercanseetheAPPSpagewithalltheproductwhichispresentinAPPS()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 20381590350,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is to navigate to USGBC website",
+            "match": {
+              "location": "verifyAppPageContents.GivenUserIsToNavigateToUSGBCWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 50950051,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User can see the Store link to navigate to the Store page",
+            "match": {
+              "location": "verifyAppPageContents.GivenUserCanSeeTheStoreLinkToNavigateToTheStorePage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 37390854304,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Click on the Store link",
+            "match": {
+              "location": "verifyAppPageContents.WhenClickOnTheStoreLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1205239,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User can see the Store page with all the contents",
+            "match": {
+              "location": "verifyAppPageContents.ThenUserCanSeeTheStorePageWithAllTheContents()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 35,
+        "name": "To verify the contents in the App page when searched for a product",
+        "description": "",
+        "id": "to-verify-the-content-of-apps-category-in-usgbc-online-portal.;to-verify-the-contents-in-the-app-page-when-searched-for-a-product;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3140199294,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Click on the APPS Image link",
+            "match": {
+              "location": "verifyAppPageContents.ClickontheAPPSImagelink()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 75427507,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user can see the search bar to search for products",
+            "match": {
+              "location": "verifyAppPageContents.usercanseethesearchbartosearchforproducts()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 227793978,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user give tap in search bar to search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tap",
+                  "offset": 10
+                }
+              ],
+              "location": "verifyAppPageContents.usergiveinputinsearchbartosearch(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 229750981,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user click on the search image",
+            "match": {
+              "location": "verifyAppPageContents.userclickonthesearchimage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 85550836,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user can see related products as the tap",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tap",
+                  "offset": 37
+                }
+              ],
+              "location": "verifyAppPageContents.usercanseerelatedproductsastheinput(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 19908789599,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is to navigate to USGBC website",
+            "match": {
+              "location": "verifyAppPageContents.GivenUserIsToNavigateToUSGBCWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 65630030,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User can see the Store link to navigate to the Store page",
+            "match": {
+              "location": "verifyAppPageContents.GivenUserCanSeeTheStoreLinkToNavigateToTheStorePage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31965752253,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Click on the Store link",
+            "match": {
+              "location": "verifyAppPageContents.WhenClickOnTheStoreLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1017959,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User can see the Store page with all the contents",
+            "match": {
+              "location": "verifyAppPageContents.ThenUserCanSeeTheStorePageWithAllTheContents()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 36,
+        "name": "To verify the contents in the App page when searched for a product",
+        "description": "",
+        "id": "to-verify-the-content-of-apps-category-in-usgbc-online-portal.;to-verify-the-contents-in-the-app-page-when-searched-for-a-product;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3291540634,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Click on the APPS Image link",
+            "match": {
+              "location": "verifyAppPageContents.ClickontheAPPSImagelink()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 56203716,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user can see the search bar to search for products",
+            "match": {
+              "location": "verifyAppPageContents.usercanseethesearchbartosearchforproducts()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 198705501,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user give trane in search bar to search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "trane",
+                  "offset": 10
+                }
+              ],
+              "location": "verifyAppPageContents.usergiveinputinsearchbartosearch(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 290740916,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user click on the search image",
+            "match": {
+              "location": "verifyAppPageContents.userclickonthesearchimage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 81162210,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user can see related products as the trane",
+            "match": {
+              "arguments": [
+                {
+                  "val": "trane",
+                  "offset": 37
+                }
+              ],
+              "location": "verifyAppPageContents.usercanseerelatedproductsastheinput(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 18958258777,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is to navigate to USGBC website",
+            "match": {
+              "location": "verifyAppPageContents.GivenUserIsToNavigateToUSGBCWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 59159421,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User can see the Store link to navigate to the Store page",
+            "match": {
+              "location": "verifyAppPageContents.GivenUserCanSeeTheStoreLinkToNavigateToTheStorePage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34628883753,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Click on the Store link",
+            "match": {
+              "location": "verifyAppPageContents.WhenClickOnTheStoreLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 925829,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User can see the Store page with all the contents",
+            "match": {
+              "location": "verifyAppPageContents.ThenUserCanSeeTheStorePageWithAllTheContents()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 37,
+        "name": "To verify the contents in the App page when searched for a product",
+        "description": "",
+        "id": "to-verify-the-content-of-apps-category-in-usgbc-online-portal.;to-verify-the-contents-in-the-app-page-when-searched-for-a-product;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2094132502,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Click on the APPS Image link",
+            "match": {
+              "location": "verifyAppPageContents.ClickontheAPPSImagelink()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 114095974,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user can see the search bar to search for products",
+            "match": {
+              "location": "verifyAppPageContents.usercanseethesearchbartosearchforproducts()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 299228941,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user give Autodesk in search bar to search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Autodesk",
+                  "offset": 10
+                }
+              ],
+              "location": "verifyAppPageContents.usergiveinputinsearchbartosearch(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 196412073,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user click on the search image",
+            "match": {
+              "location": "verifyAppPageContents.userclickonthesearchimage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79796499,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user can see related products as the Autodesk",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Autodesk",
+                  "offset": 37
+                }
+              ],
+              "location": "verifyAppPageContents.usercanseerelatedproductsastheinput(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 28022881420,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is to navigate to USGBC website",
+            "match": {
+              "location": "verifyAppPageContents.GivenUserIsToNavigateToUSGBCWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 83579107,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User can see the Store link to navigate to the Store page",
+            "match": {
+              "location": "verifyAppPageContents.GivenUserCanSeeTheStoreLinkToNavigateToTheStorePage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 51574019318,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Click on the Store link",
+            "match": {
+              "location": "verifyAppPageContents.WhenClickOnTheStoreLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 893735,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User can see the Store page with all the contents",
+            "match": {
+              "location": "verifyAppPageContents.ThenUserCanSeeTheStorePageWithAllTheContents()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 38,
+        "name": "To verify the contents in the App page when searched for a product",
+        "description": "",
+        "id": "to-verify-the-content-of-apps-category-in-usgbc-online-portal.;to-verify-the-contents-in-the-app-page-when-searched-for-a-product;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2553449072,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Click on the APPS Image link",
+            "match": {
+              "location": "verifyAppPageContents.ClickontheAPPSImagelink()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 53080742,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user can see the search bar to search for products",
+            "match": {
+              "location": "verifyAppPageContents.usercanseethesearchbartosearchforproducts()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 239879220,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user give tracker in search bar to search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tracker",
+                  "offset": 10
+                }
+              ],
+              "location": "verifyAppPageContents.usergiveinputinsearchbartosearch(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 190670195,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user click on the search image",
+            "match": {
+              "location": "verifyAppPageContents.userclickonthesearchimage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79434399,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user can see related products as the tracker",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tracker",
+                  "offset": 37
+                }
+              ],
+              "location": "verifyAppPageContents.usercanseerelatedproductsastheinput(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To Verify the content of Apps category in USGBC Online Portal.",
+    "description": "",
+    "id": "to-verify-the-content-of-apps-category-in-usgbc-online-portal.",
+    "keyword": "Feature",
+    "uri": "G:/USGBC_Katalon-master/BddAutomation.prj/Include/features/USGBC/Store/Apps/verifyAppPageContents.feature",
+    "tags": []
+  }
+]

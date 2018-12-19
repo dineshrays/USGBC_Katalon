@@ -4,8 +4,8 @@
    <name>SmokeTest</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-12-06T19:02:07</lastRun>
-   <mailRecipient></mailRecipient>
+   <lastRun>2018-12-14T10:45:30</lastRun>
+   <mailRecipient>dinesh.dider@gmail.com;dinesh.rays@gmail.com;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>

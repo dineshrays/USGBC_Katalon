@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="107.021984">
+<testcase classname="To Verify the content of Exam category in USGBC Online Portal." name="To Verify the contents in the Exams Page" time="107.021984">
+<system-out><![CDATA[Given User is to navigate to USGBC website..................................passed
+And User can see the Store link to navigate to the Store page...............passed
+When Click on the Store link................................................passed
+Then User can see the Store page with all the contents......................passed
+Given User can see the Store link to navigate to the Store page.............passed
+And Click on the Store link.................................................passed
+And User can see the Exams Image link to navigate to the Exams page.........passed
+When Click on the Exams Image link..........................................passed
+Then User can see the Exams page with all the product which is present in Exams.passed
+And User can see the Exams filter checked by Default in the Filters Category list.passed
+]]></system-out>
+</testcase>
+</testsuite>

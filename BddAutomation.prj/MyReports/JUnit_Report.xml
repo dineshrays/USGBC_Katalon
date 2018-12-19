@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SmokeTest" time="535" tests="1" failures="0" errors="0">
+   <testsuite name="SmokeTest" tests="1" failures="0" errors="0" time="535" timestamp="2018-12-11 19:09:20" hostname="G10PROLT020$ - G10PROLT020" id="Test Suites/SmokeTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="G:\\USGBC_Katalon-master\\BddAutomation.prj\\Reports\\SmokeTest\\20181211_190904"/>
+         <property name="logFiles" value="G:\\USGBC_Katalon-master\\BddAutomation.prj\\Reports\\SmokeTest\\20181211_190904\\execution0.log"/>
+         <property name="attachments" value="G:\\USGBC_Katalon-master\\BddAutomation.prj\\Reports\\SmokeTest\\20181211_190904\\1544536056195.png, G:\\USGBC_Katalon-master\\BddAutomation.prj\\Reports\\SmokeTest\\20181211_190904\\1544536056902.png, G:\\USGBC_Katalon-master\\BddAutomation.prj\\Reports\\SmokeTest\\20181211_190904\\1544536088457.png"/>
+         <property name="hostName" value="G10PROLT020$ - G10PROLT020"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Chrome 71.0.3578.80"/>
+         <property name="hostAddress" value="192.168.138.1"/>
+         <property name="sessionId" value="3fc41b1d4f971ca8c20504be0506d153"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/USGBC/FunctionalTesting/TC_Store_Features" classname="Test Cases/USGBC/FunctionalTesting/TC_Store_Features" status="PASSED">
+         <system-out><![CDATA[2018-12-11 19:09:22 - [TEST_CASE][PASSED] - Test Cases/USGBC/FunctionalTesting/TC_Store_Features: Browser is closed
+
+2018-12-11 19:09:22 - [TEST_STEP][PASSED] - Start listener action : beforeTestcase: null
+
+2018-12-11 19:09:23 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/USGBC/Store/Apps/verifyAppPageContents.feature"): Browser is closed
+
+2018-12-11 19:09:24 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/USGBC/Store/Apps/verifyAppPageContents.feature' and extract report to folder: 'G:\USGBC_Katalon-master\BddAutomation.prj\Reports\SmokeTest\20181211_190904/cucumber_report/1544535564256'...
+
+2018-12-11 19:09:35 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO To verify the contents in the Apps page: SCENARIO To verify the contents in the Apps page
+
+2018-12-11 19:09:35 - [TEST_STEP][PASSED] - User is to navigate to USGBC website: User is to navigate to USGBC website
+
+2018-12-11 19:09:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-11 19:09:37 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2018-12-11 19:09:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-11 19:11:04 - [MESSAGE][PASSED] - Navigate to 'https://new.usgbc.org/' successfully
+
+2018-12-11 19:11:04 - [MESSAGE][PASSED] - User is to navigate to USGBC website
+
+2018-12-11 19:11:04 - [TEST_STEP][PASSED] - User can see the Store link to navigate to the Store page: User can see the Store link to navigate to the Store page
+
+2018-12-11 19:11:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_USGBC homepage  USGBC/a_Store' is present
+
+2018-12-11 19:11:05 - [MESSAGE][PASSED] - User can see the Store link to navigate to the Store page
+
+2018-12-11 19:11:05 - [TEST_STEP][PASSED] - Click on the Store link: Click on the Store link
+
+2018-12-11 19:11:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_USGBC homepage  USGBC/a_Store' is clicked on
+
+2018-12-11 19:11:53 - [MESSAGE][PASSED] - Click on the Store link
+
+2018-12-11 19:11:53 - [TEST_STEP][PASSED] - User can see the Store page with all the contents: User can see the Store page with all the contents
+
+2018-12-11 19:11:53 - [MESSAGE][PASSED] - User can see the Store page with all the contents
+
+2018-12-11 19:11:53 - [TEST_STEP][PASSED] - User can see the APPS Image link to navigate to the APPS page: User can see the APPS Image link to navigate to the APPS page
+
+2018-12-11 19:11:53 - [MESSAGE][PASSED] - User can see the APPS Image link to navigate to the APPS page
+
+2018-12-11 19:11:53 - [TEST_STEP][PASSED] - Click on the APPS Image link: Click on the APPS Image link
+
+2018-12-11 19:12:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Store  U.S. Green Building Cou/img' is clicked on
+
+2018-12-11 19:12:08 - [MESSAGE][PASSED] - Click on the APPS Image link
+
+2018-12-11 19:12:08 - [TEST_STEP][PASSED] - User can see the APPS page with all the product which is present in APPS: User can see the APPS page with all the product which is present in APPS
+
+2018-12-11 19:12:08 - [MESSAGE][PASSED] - User can see the APPS page with all the product which is present in APPS
+
+2018-12-11 19:12:08 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO To verify the contents in the App page when searched for a product: SCENARIO To verify the contents in the App page when searched for a product
+
+2018-12-11 19:12:08 - [TEST_STEP][PASSED] - User is to navigate to USGBC website: User is to navigate to USGBC website
+
+2018-12-11 19:12:08 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-12-11 19:12:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-11 19:12:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-11 19:12:28 - [MESSAGE][PASSED] - Navigate to 'https://new.usgbc.org/' successfully
+
+2018-12-11 19:12:28 - [MESSAGE][PASSED] - User is to navigate to USGBC website
+
+2018-12-11 19:12:28 - [TEST_STEP][PASSED] - User can see the Store link to navigate to the Store page: User can see the Store link to navigate to the Store page
+
+2018-12-11 19:12:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_USGBC homepage  USGBC/a_Store' is present
+
+2018-12-11 19:12:28 - [MESSAGE][PASSED] - User can see the Store link to navigate to the Store page
+
+2018-12-11 19:12:28 - [TEST_STEP][PASSED] - Click on the Store link: Click on the Store link
+
+2018-12-11 19:13:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_USGBC homepage  USGBC/a_Store' is clicked on
+
+2018-12-11 19:13:06 - [MESSAGE][PASSED] - Click on the Store link
+
+2018-12-11 19:13:06 - [TEST_STEP][PASSED] - User can see the Store page with all the contents: User can see the Store page with all the contents
+
+2018-12-11 19:13:06 - [MESSAGE][PASSED] - User can see the Store page with all the contents
+
+2018-12-11 19:13:06 - [TEST_STEP][PASSED] - Click on the APPS Image link: Click on the APPS Image link
+
+2018-12-11 19:13:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Store  U.S. Green Building Cou/img' is clicked on
+
+2018-12-11 19:13:09 - [MESSAGE][PASSED] - Click on the APPS Image link
+
+2018-12-11 19:13:09 - [TEST_STEP][PASSED] - user can see the search bar to search for products: user can see the search bar to search for products
+
+2018-12-11 19:13:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-12-11 19:13:09 - [MESSAGE][PASSED] - Object 'Object Repository/AppsContentVerify/Page_U.S. Green Building Council/input_Store products_title' is present
+
+2018-12-11 19:13:09 - [MESSAGE][PASSED] - user can see the search bar to search for products
+
+2018-12-11 19:13:09 - [TEST_STEP][PASSED] - user give tap in search bar to search: user give tap in search bar to search
+
+2018-12-11 19:13:09 - [MESSAGE][PASSED] - Text 'tap' is set on object 'Object Repository/AppsContentVerify/Page_U.S. Green Building Council/input_Store products_title'
+
+2018-12-11 19:13:09 - [MESSAGE][PASSED] - user give tap in search bar to search
+
+2018-12-11 19:13:09 - [TEST_STEP][PASSED] - user click on the search image: user click on the search image
+
+2018-12-11 19:13:09 - [MESSAGE][PASSED] - Object: 'Object Repository/AppsContentVerify/Page_U.S. Green Building Council/input_Store products_jumbo-sea' is clicked on
+
+2018-12-11 19:13:09 - [MESSAGE][PASSED] - user click on the search image
+
+2018-12-11 19:13:09 - [TEST_STEP][PASSED] - user can see related products as the tap: user can see related products as the tap
+
+2018-12-11 19:13:09 - [MESSAGE][PASSED] - Object 'Object Repository/AppsContentVerify/Page_U.S. Green Building Council/a_IES TaP for LEED' is clickable
+
+2018-12-11 19:13:09 - [MESSAGE][PASSED] - user can see related products as the tap
+
+2018-12-11 19:13:09 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO To verify the contents in the App page when searched for a product: SCENARIO To verify the contents in the App page when searched for a product
+
+2018-12-11 19:13:09 - [TEST_STEP][PASSED] - User is to navigate to USGBC website: User is to navigate to USGBC website
+
+2018-12-11 19:13:09 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-12-11 19:13:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-11 19:13:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-11 19:13:29 - [MESSAGE][PASSED] - Navigate to 'https://new.usgbc.org/' successfully
+
+2018-12-11 19:13:29 - [MESSAGE][PASSED] - User is to navigate to USGBC website
+
+2018-12-11 19:13:29 - [TEST_STEP][PASSED] - User can see the Store link to navigate to the Store page: User can see the Store link to navigate to the Store page
+
+2018-12-11 19:13:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_USGBC homepage  USGBC/a_Store' is present
+
+2018-12-11 19:13:29 - [MESSAGE][PASSED] - User can see the Store link to navigate to the Store page
+
+2018-12-11 19:13:29 - [TEST_STEP][PASSED] - Click on the Store link: Click on the Store link
+
+2018-12-11 19:14:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_USGBC homepage  USGBC/a_Store' is clicked on
+
+2018-12-11 19:14:01 - [MESSAGE][PASSED] - Click on the Store link
+
+2018-12-11 19:14:01 - [TEST_STEP][PASSED] - User can see the Store page with all the contents: User can see the Store page with all the contents
+
+2018-12-11 19:14:01 - [MESSAGE][PASSED] - User can see the Store page with all the contents
+
+2018-12-11 19:14:01 - [TEST_STEP][PASSED] - Click on the APPS Image link: Click on the APPS Image link
+
+2018-12-11 19:14:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Store  U.S. Green Building Cou/img' is clicked on
+
+2018-12-11 19:14:05 - [MESSAGE][PASSED] - Click on the APPS Image link
+
+2018-12-11 19:14:05 - [TEST_STEP][PASSED] - user can see the search bar to search for products: user can see the search bar to search for products
+
+2018-12-11 19:14:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-12-11 19:14:05 - [MESSAGE][PASSED] - Object 'Object Repository/AppsContentVerify/Page_U.S. Green Building Council/input_Store products_title' is present
+
+2018-12-11 19:14:05 - [MESSAGE][PASSED] - user can see the search bar to search for products
+
+2018-12-11 19:14:05 - [TEST_STEP][PASSED] - user give trane in search bar to search: user give trane in search bar to search
+
+2018-12-11 19:14:05 - [MESSAGE][PASSED] - Text 'trane' is set on object 'Object Repository/AppsContentVerify/Page_U.S. Green Building Council/input_Store products_title'
+
+2018-12-11 19:14:05 - [MESSAGE][PASSED] - user give trane in search bar to search
+
+2018-12-11 19:14:05 - [TEST_STEP][PASSED] - user click on the search image: user click on the search image
+
+2018-12-11 19:14:05 - [MESSAGE][PASSED] - Object: 'Object Repository/AppsContentVerify/Page_U.S. Green Building Council/input_Store products_jumbo-sea' is clicked on
+
+2018-12-11 19:14:05 - [MESSAGE][PASSED] - user click on the search image
+
+2018-12-11 19:14:05 - [TEST_STEP][PASSED] - user can see related products as the trane: user can see related products as the trane
+
+2018-12-11 19:14:05 - [MESSAGE][PASSED] - Object 'Object Repository/AppsContentVerify/Page_U.S. Green Building Council/a_Trane TRACE 700 apps for LEE' is clickable
+
+2018-12-11 19:14:05 - [MESSAGE][PASSED] - user can see related products as the trane
+
+2018-12-11 19:14:05 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO To verify the contents in the App page when searched for a product: SCENARIO To verify the contents in the App page when searched for a product
+
+2018-12-11 19:14:05 - [TEST_STEP][PASSED] - User is to navigate to USGBC website: User is to navigate to USGBC website
+
+2018-12-11 19:14:05 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-12-11 19:14:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-11 19:14:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-11 19:14:24 - [MESSAGE][PASSED] - Navigate to 'https://new.usgbc.org/' successfully
+
+2018-12-11 19:14:24 - [MESSAGE][PASSED] - User is to navigate to USGBC website
+
+2018-12-11 19:14:24 - [TEST_STEP][PASSED] - User can see the Store link to navigate to the Store page: User can see the Store link to navigate to the Store page
+
+2018-12-11 19:14:24 - [MESSAGE][PASSED] - Object 'Object Repository/Page_USGBC homepage  USGBC/a_Store' is present
+
+2018-12-11 19:14:24 - [MESSAGE][PASSED] - User can see the Store link to navigate to the Store page
+
+2018-12-11 19:14:24 - [TEST_STEP][PASSED] - Click on the Store link: Click on the Store link
+
+2018-12-11 19:14:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_USGBC homepage  USGBC/a_Store' is clicked on
+
+2018-12-11 19:14:59 - [MESSAGE][PASSED] - Click on the Store link
+
+2018-12-11 19:14:59 - [TEST_STEP][PASSED] - User can see the Store page with all the contents: User can see the Store page with all the contents
+
+2018-12-11 19:14:59 - [MESSAGE][PASSED] - User can see the Store page with all the contents
+
+2018-12-11 19:14:59 - [TEST_STEP][PASSED] - Click on the APPS Image link: Click on the APPS Image link
+
+2018-12-11 19:15:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Store  U.S. Green Building Cou/img' is clicked on
+
+2018-12-11 19:15:01 - [MESSAGE][PASSED] - Click on the APPS Image link
+
+2018-12-11 19:15:01 - [TEST_STEP][PASSED] - user can see the search bar to search for products: user can see the search bar to search for products
+
+2018-12-11 19:15:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-12-11 19:15:01 - [MESSAGE][PASSED] - Object 'Object Repository/AppsContentVerify/Page_U.S. Green Building Council/input_Store products_title' is present
+
+2018-12-11 19:15:01 - [MESSAGE][PASSED] - user can see the search bar to search for products
+
+2018-12-11 19:15:01 - [TEST_STEP][PASSED] - user give Autodesk in search bar to search: user give Autodesk in search bar to search
+
+2018-12-11 19:15:02 - [MESSAGE][PASSED] - Text 'Autodesk' is set on object 'Object Repository/AppsContentVerify/Page_U.S. Green Building Council/input_Store products_title'
+
+2018-12-11 19:15:02 - [MESSAGE][PASSED] - user give Autodesk in search bar to search
+
+2018-12-11 19:15:02 - [TEST_STEP][PASSED] - user click on the search image: user click on the search image
+
+2018-12-11 19:15:02 - [MESSAGE][PASSED] - Object: 'Object Repository/AppsContentVerify/Page_U.S. Green Building Council/input_Store products_jumbo-sea' is clicked on
+
+2018-12-11 19:15:02 - [MESSAGE][PASSED] - user click on the search image
+
+2018-12-11 19:15:02 - [TEST_STEP][PASSED] - user can see related products as the Autodesk: user can see related products as the Autodesk
+
+2018-12-11 19:15:02 - [MESSAGE][PASSED] - Object 'Object Repository/AppsContentVerify/Page_U.S. Green Building Council/a_Autodesk Apps for LEED Autom' is clickable
+
+2018-12-11 19:15:02 - [MESSAGE][PASSED] - user can see related products as the Autodesk
+
+2018-12-11 19:15:02 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO To verify the contents in the App page when searched for a product: SCENARIO To verify the contents in the App page when searched for a product
+
+2018-12-11 19:15:02 - [TEST_STEP][PASSED] - User is to navigate to USGBC website: User is to navigate to USGBC website
+
+2018-12-11 19:15:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-12-11 19:15:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-11 19:15:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-11 19:15:30 - [MESSAGE][PASSED] - Navigate to 'https://new.usgbc.org/' successfully
+
+2018-12-11 19:15:30 - [MESSAGE][PASSED] - User is to navigate to USGBC website
+
+2018-12-11 19:15:30 - [TEST_STEP][PASSED] - User can see the Store link to navigate to the Store page: User can see the Store link to navigate to the Store page
+
+2018-12-11 19:15:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_USGBC homepage  USGBC/a_Store' is present
+
+2018-12-11 19:15:30 - [MESSAGE][PASSED] - User can see the Store link to navigate to the Store page
+
+2018-12-11 19:15:30 - [TEST_STEP][PASSED] - Click on the Store link: Click on the Store link
+
+2018-12-11 19:16:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_USGBC homepage  USGBC/a_Store' is clicked on
+
+2018-12-11 19:16:21 - [MESSAGE][PASSED] - Click on the Store link
+
+2018-12-11 19:16:21 - [TEST_STEP][PASSED] - User can see the Store page with all the contents: User can see the Store page with all the contents
+
+2018-12-11 19:16:21 - [MESSAGE][PASSED] - User can see the Store page with all the contents
+
+2018-12-11 19:16:21 - [TEST_STEP][PASSED] - Click on the APPS Image link: Click on the APPS Image link
+
+2018-12-11 19:16:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Store  U.S. Green Building Cou/img' is clicked on
+
+2018-12-11 19:16:24 - [MESSAGE][PASSED] - Click on the APPS Image link
+
+2018-12-11 19:16:24 - [TEST_STEP][PASSED] - user can see the search bar to search for products: user can see the search bar to search for products
+
+2018-12-11 19:16:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-12-11 19:16:24 - [MESSAGE][PASSED] - Object 'Object Repository/AppsContentVerify/Page_U.S. Green Building Council/input_Store products_title' is present
+
+2018-12-11 19:16:24 - [MESSAGE][PASSED] - user can see the search bar to search for products
+
+2018-12-11 19:16:24 - [TEST_STEP][PASSED] - user give tracker in search bar to search: user give tracker in search bar to search
+
+2018-12-11 19:16:24 - [MESSAGE][PASSED] - Text 'tracker' is set on object 'Object Repository/AppsContentVerify/Page_U.S. Green Building Council/input_Store products_title'
+
+2018-12-11 19:16:24 - [MESSAGE][PASSED] - user give tracker in search bar to search
+
+2018-12-11 19:16:24 - [TEST_STEP][PASSED] - user click on the search image: user click on the search image
+
+2018-12-11 19:16:25 - [MESSAGE][PASSED] - Object: 'Object Repository/AppsContentVerify/Page_U.S. Green Building Council/input_Store products_jumbo-sea' is clicked on
+
+2018-12-11 19:16:25 - [MESSAGE][PASSED] - user click on the search image
+
+2018-12-11 19:16:25 - [TEST_STEP][PASSED] - user can see related products as the tracker: user can see related products as the tracker
+
+2018-12-11 19:16:25 - [MESSAGE][PASSED] - Object 'Object Repository/AppsContentVerify/Page_U.S. Green Building Council/a_Tracker Plus for LEED' is clickable
+
+2018-12-11 19:16:25 - [MESSAGE][PASSED] - user can see related products as the tracker
+
+2018-12-11 19:16:25 - [MESSAGE][PASSED] - Feature file: 'Include/features/USGBC/Store/Apps/verifyAppPageContents.feature' was passed
+
+2018-12-11 19:16:25 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/USGBC/Store/Exam/verifyExamPageContents.feature"): Feature file: 'Include/features/USGBC/Store/Exam/verifyExamPageContents.feature' was passed
+
+2018-12-11 19:16:25 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/USGBC/Store/Exam/verifyExamPageContents.feature' and extract report to folder: 'G:\USGBC_Katalon-master\BddAutomation.prj\Reports\SmokeTest\20181211_190904/cucumber_report/1544535985278'...
+
+2018-12-11 19:16:28 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO To Verify the contents in the Exams Page: SCENARIO To Verify the contents in the Exams Page
+
+2018-12-11 19:16:28 - [TEST_STEP][PASSED] - User is to navigate to USGBC website: User is to navigate to USGBC website
+
+2018-12-11 19:16:28 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-12-11 19:16:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-11 19:16:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-11 19:16:44 - [MESSAGE][PASSED] - Navigate to 'https://new.usgbc.org/' successfully
+
+2018-12-11 19:16:44 - [MESSAGE][PASSED] - User is to navigate to USGBC website
+
+2018-12-11 19:16:44 - [TEST_STEP][PASSED] - User can see the Store link to navigate to the Store page: User can see the Store link to navigate to the Store page
+
+2018-12-11 19:16:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_USGBC homepage  USGBC/a_Store' is present
+
+2018-12-11 19:16:44 - [MESSAGE][PASSED] - User can see the Store link to navigate to the Store page
+
+2018-12-11 19:16:44 - [TEST_STEP][PASSED] - Click on the Store link: Click on the Store link
+
+2018-12-11 19:17:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_USGBC homepage  USGBC/a_Store' is clicked on
+
+2018-12-11 19:17:15 - [MESSAGE][PASSED] - Click on the Store link
+
+2018-12-11 19:17:15 - [TEST_STEP][PASSED] - User can see the Store page with all the contents: User can see the Store page with all the contents
+
+2018-12-11 19:17:15 - [MESSAGE][PASSED] - User can see the Store page with all the contents
+
+2018-12-11 19:17:15 - [TEST_STEP][PASSED] - User can see the Store link to navigate to the Store page: User can see the Store link to navigate to the Store page
+
+2018-12-11 19:17:36 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //ul[@id='main-menu']/li/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2018-12-11 19:17:36 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_USGBC homepage  USGBC/a_Store' located by 'By.xpath: //ul[@id='main-menu']/li/a' not found
+[[ATTACHMENT|G:\\USGBC_Katalon-master\\BddAutomation.prj\\Reports\\SmokeTest\\20181211_190904\\1544536056195.png]]
+
+2018-12-11 19:17:37 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_USGBC homepage  USGBC/a_Store' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_USGBC homepage  USGBC/a_Store' located by 'By.xpath: //ul[@id='main-menu']/li/a' not found)
+[[ATTACHMENT|G:\\USGBC_Katalon-master\\BddAutomation.prj\\Reports\\SmokeTest\\20181211_190904\\1544536056902.png]]
+
+2018-12-11 19:17:37 - [MESSAGE][PASSED] - User can see the Store link to navigate to the Store page
+
+2018-12-11 19:17:37 - [TEST_STEP][PASSED] - Click on the Store link: Click on the Store link
+
+2018-12-11 19:18:08 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //ul[@id='main-menu']/li/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2018-12-11 19:18:08 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_USGBC homepage  USGBC/a_Store' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_USGBC homepage  USGBC/a_Store' located by 'By.xpath: //ul[@id='main-menu']/li/a' not found)
+[[ATTACHMENT|G:\\USGBC_Katalon-master\\BddAutomation.prj\\Reports\\SmokeTest\\20181211_190904\\1544536088457.png]]
+
+2018-12-11 19:18:08 - [MESSAGE][PASSED] - Click on the Store link
+
+2018-12-11 19:18:08 - [TEST_STEP][PASSED] - User can see the Exams Image link to navigate to the Exams page: User can see the Exams Image link to navigate to the Exams page
+
+2018-12-11 19:18:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-12-11 19:18:08 - [MESSAGE][PASSED] - Object 'Object Repository/Exams_Page/Page_Store  U.S. Green Building Cou/div_Next_exams' is present
+
+2018-12-11 19:18:08 - [MESSAGE][PASSED] - User can see the Exams Image link to navigate to the Exams page
+
+2018-12-11 19:18:08 - [TEST_STEP][PASSED] - Click on the Exams Image link: Click on the Exams Image link
+
+2018-12-11 19:18:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Exams_Page/Page_Store  U.S. Green Building Cou/img' is clicked on
+
+2018-12-11 19:18:15 - [MESSAGE][PASSED] - Click on the Exams Image link
+
+2018-12-11 19:18:15 - [TEST_STEP][PASSED] - User can see the Exams page with all the product which is present in Exams: User can see the Exams page with all the product which is present in Exams
+
+2018-12-11 19:18:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-12-11 19:18:15 - [MESSAGE][PASSED] - Object 'Object Repository/Exams_Page/Page_U.S. Green Building Council/div_.jumbo-search-field border' is present
+
+2018-12-11 19:18:15 - [MESSAGE][PASSED] - User can see the Exams page with all the product which is present in Exams
+
+2018-12-11 19:18:15 - [TEST_STEP][PASSED] - User can see the Exams filter checked by Default in the Filters Category list: User can see the Exams filter checked by Default in the Filters Category list
+
+2018-12-11 19:18:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-12-11 19:18:15 - [MESSAGE][PASSED] - Object 'Object Repository/Exams_Page/Page_U.S. Green Building Council/input_Exams_category' is checked
+
+2018-12-11 19:18:15 - [MESSAGE][PASSED] - User can see the Exams filter checked by Default in the Filters Category list
+
+2018-12-11 19:18:15 - [MESSAGE][PASSED] - Feature file: 'Include/features/USGBC/Store/Exam/verifyExamPageContents.feature' was passed
+
+2018-12-11 19:18:15 - [MESSAGE][PASSED] - Test Cases/USGBC/FunctionalTesting/TC_Store_Features
+
+2018-12-11 19:18:15 - [TEST_STEP][PASSED] - Start listener action : afterTestcase: Browser is closed
+
+2018-12-11 19:18:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-11 19:18:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-11 19:09:20 - [TEST_SUITE][INCOMPLETE] - SmokeTest: null]]></system-out>
+      <system-err><![CDATA[2018-12-11 19:09:20 - [TEST_SUITE][INCOMPLETE] - SmokeTest: null]]></system-err>
+   </testsuite>
+</testsuites>

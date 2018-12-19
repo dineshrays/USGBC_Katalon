@@ -48,7 +48,7 @@ import cucumber.api.java.en.When
 
 
 class verifyExamPageContents {
-		@Given("User can see the Exams Image link to navigate to the Exams page")
+	@Given("User can see the Exams Image link to navigate to the Exams page")
 	def UsercanseetheExamsImagelinktonavigatetotheExamspage() {
 		try {
 			boolean myResult = WebUI.verifyElementPresent(findTestObject('Object Repository/Exams_Page/Page_Store  U.S. Green Building Cou/div_Next_exams'),
@@ -112,6 +112,4 @@ class verifyExamPageContents {
 			println "Not Redirected to Apps Page"
 		}
 	}
-
-
 }

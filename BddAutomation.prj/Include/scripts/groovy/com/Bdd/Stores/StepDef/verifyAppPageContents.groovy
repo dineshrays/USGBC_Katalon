@@ -48,12 +48,13 @@ import cucumber.api.java.en.When
 
 
 class verifyAppPageContents {
-	
+
 	@Given("User is to navigate to USGBC website")
 	def GivenUserIsToNavigateToUSGBCWebsite() {
 		WebUI.openBrowser('')
 		WebUI.navigateToUrl('https://new.usgbc.org/')
 	}
+
 
 	@Given("User can see the Store link to navigate to the Store page")
 	def GivenUserCanSeeTheStoreLinkToNavigateToTheStorePage() {
@@ -87,40 +88,40 @@ class verifyAppPageContents {
 
 	@Then("User can see the Store page with all the contents")
 	def ThenUserCanSeeTheStorePageWithAllTheContents() {
-		
-           //WebUI.verifyImagePresent(findTestObject('Page_Store  U.S. Green Building Cou/img'));
+
+		//WebUI.verifyImagePresent(findTestObject('Page_Store  U.S. Green Building Cou/img'));
 	}
-	
-	
-//----------------------------------------------------------------------------------------------------------
+
+
+	//----------------------------------------------------------------------------------------------------------
 
 
 	@Given("User can see the APPS Image link to navigate to the APPS page")
 	def UsercanseetheAPPSImagelinktonavigatetotheAPPSpage() {
-		
-			
-	//WebUI.verifyImagePresent(findTestObject('Page_Store  U.S. Green Building Cou/img'));
-		
+
+
+		//WebUI.verifyImagePresent(findTestObject('Page_Store  U.S. Green Building Cou/img'));
+
 	}
 
 	@When("Click on the APPS Image link")
 	def ClickontheAPPSImagelink() {
-	
-			WebUI.click(findTestObject('Page_Store  U.S. Green Building Cou/img'))
+
+		WebUI.click(findTestObject('Page_Store  U.S. Green Building Cou/img'))
 	}
 
 	@Then("User can see the APPS page with all the product which is present in APPS")
 	def UsercanseetheAPPSpagewithalltheproductwhichispresentinAPPS() {
-					
-			//WebUI.verifyElementPresent(findTestObject('Object Repository/Apps_Folder/Page_U.S. Green Building Council/div_.jumbo-search-field border'))
-	
+
+		//WebUI.verifyElementPresent(findTestObject('Object Repository/Apps_Folder/Page_U.S. Green Building Council/div_.jumbo-search-field border'))
+
 	}
 
 
 	@Then("User can see the  APPS filter checked by Default in the Filters Category list")
 	def UsercanseetheAPPSfiltercheckedbyDefaultintheFiltersCategorylist() {
 
-	 WebUI.verifyElementPresent(findTestObject('Object Repository/Apps_Folder/Page_U.S. Green Building Council/span_Apps_checked'))
+		WebUI.verifyElementPresent(findTestObject('Object Repository/Apps_Folder/Page_U.S. Green Building Council/span_Apps_checked'))
 
 
 	}
@@ -128,15 +129,65 @@ class verifyAppPageContents {
 	@Then("User can see the Search bar to search products")
 	def UsercanseetheSearchbartosearchproducts() {
 
-			 WebUI.verifyElementPresent(findTestObject('Object Repository/Apps_Folder/Page_U.S. Green Building Council/div_Store products_jumbo-searc'))
+		WebUI.verifyElementPresent(findTestObject('Object Repository/Apps_Folder/Page_U.S. Green Building Council/div_Store products_jumbo-searc'))
 	}
 
 
 	@Then("User can see the Filters")
 	def UsercanseetheFilters() {
- 
-			boolean myResult = WebUI.verifyElementPresent(findTestObject('Object Repository/Apps_Folder/Page_U.S. Green Building Council/div_Categories AppsEducationEx'))
+
+		boolean myResult = WebUI.verifyElementPresent(findTestObject('Object Repository/Apps_Folder/Page_U.S. Green Building Council/div_Categories AppsEducationEx'))
 
 	}
+
+
+	@Given("user can see the search bar to search for products")
+	def usercanseethesearchbartosearchforproducts() {
+
+		WebUI.verifyElementPresent(findTestObject('Object Repository/AppsContentVerify/Page_U.S. Green Building Council/input_Store products_title'), 0)
+
+	}
+
+
+	@When("user give (.*) in search bar to search")
+	def  usergiveinputinsearchbartosearch(String input) {
+
+		WebUI.setText(findTestObject('Object Repository/AppsContentVerify/Page_U.S. Green Building Council/input_Store products_title'), input)
+	}
+
+	@When("user click on the search image")
+	def  userclickonthesearchimage() {
+
+		WebUI.click(findTestObject('Object Repository/AppsContentVerify/Page_U.S. Green Building Council/input_Store products_jumbo-sea'))
+
+	}
+
+
+	@Then("user can see related products as the (.*)")
+	def usercanseerelatedproductsastheinput(String input) {
+		if(input=='tap')
+		{
+			WebUI.verifyElementClickable(findTestObject('Object Repository/AppsContentVerify/Page_U.S. Green Building Council/a_IES TaP for LEED'))
+		}
+		else if(input == 'trane')
+		{
+			WebUI.verifyElementClickable(findTestObject('Object Repository/AppsContentVerify/Page_U.S. Green Building Council/a_Trane TRACE 700 apps for LEE'))
+		}
+		else if(input == 'Autodesk')
+		{
+			WebUI.verifyElementClickable(findTestObject('Object Repository/AppsContentVerify/Page_U.S. Green Building Council/a_Autodesk Apps for LEED Autom'))
+		}
+		else if(input == 'tracker')
+		{
+			WebUI.verifyElementClickable(findTestObject('Object Repository/AppsContentVerify/Page_U.S. Green Building Council/a_Tracker Plus for LEED'))
+		}
+		else
+		{
+			//WebUI.verifyElementClickable(null)
+			println('error')
+		}
+
+	}
+
 
 }

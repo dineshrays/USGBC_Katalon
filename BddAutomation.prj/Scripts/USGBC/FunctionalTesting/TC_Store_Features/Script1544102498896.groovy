@@ -12,8 +12,16 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import common.CucumberPAFrunner
 
-CucumberKW.runFeatureFile('Include/features/USGBC/Store/Apps/verifyAppPageContents.feature')
-CucumberKW.runFeatureFile('Include/features/USGBC/Store/Exam/verifyExamPageContents.feature')
+
+
+CucumberKW.runWithCucumberRunner(CucumberPAFrunner.class)
+CustomKeywords.'reports.Report.getInstance'()
+
+
+
+//CucumberKW.runFeatureFile('Include/features/USGBC/Store/Apps/verifyAppPageContents.feature')
+//CucumberKW.runFeatureFile('Include/features/USGBC/Store/Exam/verifyExamPageContents.feature')
 
 

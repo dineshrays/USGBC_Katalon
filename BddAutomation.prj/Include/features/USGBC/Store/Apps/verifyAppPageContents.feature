@@ -5,7 +5,7 @@
 # Last Updated On:
 # Feature Name:
 # Feature Dexcription
-# CR #1 :
+# CR #1 :Add Leeds 
 #-------------------------------------------------------------------------------------------------------------
 Feature: To Verify the content of Apps category in USGBC Online Portal.
 
@@ -17,11 +17,25 @@ Feature: To Verify the content of Apps category in USGBC Online Portal.
    
   
 
-  Scenario: To verify the contents in the Apps page
+
+Scenario: To verify the contents in the Apps page
     Given User can see the APPS Image link to navigate to the APPS page
     When Click on the APPS Image link
-    Then User can see the APPS page with all the product which is present in APPS
-   # And User can see the  APPS filter checked by Default in the Filters Category list
-   # And User can see the Search bar to search products
-   # And User can see the Filters
+   Then User can see the APPS page with all the product which is present in APPS
+   
 
+Scenario Outline: To verify the contents in the App page when searched for a product
+   Given Click on the APPS Image link
+    And user can see the search bar to search for products
+    When user give <input> in search bar to search 
+    And user click on the search image
+    And I need to see the webpage
+    Then user can see related products as the <input> 
+    Examples:
+   |input|
+   |tap|
+   |trane|
+   |Autodesk|
+   |tracker|
+   
+   

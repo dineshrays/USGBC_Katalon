@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="4" tests="5" time="492.732968">
+<testcase classname="To Verify the content of Apps category in USGBC Online Portal." name="To verify the contents in the Apps page" time="109.324578">
+<system-out><![CDATA[Given User is to navigate to USGBC website..................................passed
+And User can see the Store link to navigate to the Store page...............passed
+When Click on the Store link................................................passed
+Then User can see the Store page with all the contents......................passed
+Given User can see the APPS Image link to navigate to the APPS page.........passed
+When Click on the APPS Image link...........................................passed
+Then User can see the APPS page with all the product which is present in APPS.passed
+]]></system-out>
+</testcase>
+<testcase classname="To Verify the content of Apps category in USGBC Online Portal." name="To verify the contents in the App page when searched for a product" time="94.978202">
+<skipped><![CDATA[Given User is to navigate to USGBC website..................................passed
+And User can see the Store link to navigate to the Store page...............passed
+When Click on the Store link................................................passed
+Then User can see the Store page with all the contents......................passed
+Given Click on the APPS Image link..........................................passed
+And user can see the search bar to search for products......................passed
+When user give tap in search bar to search..................................passed
+And user click on the search image..........................................passed
+And I need to see the webpage...............................................undefined
+Then user can see related products as the tap...............................skipped
+]]></skipped>
+</testcase>
+<testcase classname="To Verify the content of Apps category in USGBC Online Portal." name="To verify the contents in the App page when searched for a product 2" time="108.541351">
+<skipped><![CDATA[Given User is to navigate to USGBC website..................................passed
+And User can see the Store link to navigate to the Store page...............passed
+When Click on the Store link................................................passed
+Then User can see the Store page with all the contents......................passed
+Given Click on the APPS Image link..........................................passed
+And user can see the search bar to search for products......................passed
+When user give trane in search bar to search................................passed
+And user click on the search image..........................................passed
+And I need to see the webpage...............................................undefined
+Then user can see related products as the trane.............................skipped
+]]></skipped>
+</testcase>
+<testcase classname="To Verify the content of Apps category in USGBC Online Portal." name="To verify the contents in the App page when searched for a product 3" time="97.007676">
+<skipped><![CDATA[Given User is to navigate to USGBC website..................................passed
+And User can see the Store link to navigate to the Store page...............passed
+When Click on the Store link................................................passed
+Then User can see the Store page with all the contents......................passed
+Given Click on the APPS Image link..........................................passed
+And user can see the search bar to search for products......................passed
+When user give Autodesk in search bar to search.............................passed
+And user click on the search image..........................................passed
+And I need to see the webpage...............................................undefined
+Then user can see related products as the Autodesk..........................skipped
+]]></skipped>
+</testcase>
+<testcase classname="To Verify the content of Apps category in USGBC Online Portal." name="To verify the contents in the App page when searched for a product 4" time="82.881161">
+<skipped><![CDATA[Given User is to navigate to USGBC website..................................passed
+And User can see the Store link to navigate to the Store page...............passed
+When Click on the Store link................................................passed
+Then User can see the Store page with all the contents......................passed
+Given Click on the APPS Image link..........................................passed
+And user can see the search bar to search for products......................passed
+When user give tracker in search bar to search..............................passed
+And user click on the search image..........................................passed
+And I need to see the webpage...............................................undefined
+Then user can see related products as the tracker...........................skipped
+]]></skipped>
+</testcase>
+</testsuite>

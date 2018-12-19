@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+SmokeTest,Chrome 71.0.3578.80,,2018-12-11 19:09:20,2018-12-11 19:18:16,8m - 55.456s,INCOMPLETE
+,,,,,,
+Test Cases/USGBC/FunctionalTesting/TC_Store_Features,Chrome 71.0.3578.80,,2018-12-11 19:09:22,2018-12-11 19:18:16,8m - 53.824s,PASSED
+Start listener action : beforeTestcase,Chrome 71.0.3578.80,,2018-12-11 19:09:22,2018-12-11 19:09:22,0.032s,PASSED
+"runFeatureFile(""Include/features/USGBC/Store/Apps/verifyAppPageContents.feature"")",Chrome 71.0.3578.80,,2018-12-11 19:09:23,2018-12-11 19:18:16,8m - 52.273s,PASSED

@@ -1,0 +1,152 @@
+[
+  {
+    "line": 10,
+    "elements": [
+      {
+        "line": 12,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 16618409651,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is to navigate to USGBC website",
+            "match": {
+              "location": "verifyAppPageContents.GivenUserIsToNavigateToUSGBCWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 48043809,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User can see the Store link to navigate to the Store page",
+            "match": {
+              "location": "verifyAppPageContents.GivenUserCanSeeTheStoreLinkToNavigateToTheStorePage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30315913877,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Click on the Store link",
+            "match": {
+              "location": "verifyAppPageContents.WhenClickOnTheStoreLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1031552,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User can see the Store page with all the contents",
+            "match": {
+              "location": "verifyAppPageContents.ThenUserCanSeeTheStorePageWithAllTheContents()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "To Verify the contents in the Exams Page",
+        "description": "",
+        "id": "to-verify-the-content-of-exam-category-in-usgbc-online-portal.;to-verify-the-contents-in-the-exams-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 22138163754,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User can see the Store link to navigate to the Store page",
+            "match": {
+              "location": "verifyAppPageContents.GivenUserCanSeeTheStoreLinkToNavigateToTheStorePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 31558783917,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Click on the Store link",
+            "match": {
+              "location": "verifyAppPageContents.WhenClickOnTheStoreLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77191188,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User can see the Exams Image link to navigate to the Exams page",
+            "match": {
+              "location": "verifyExamPageContents.UsercanseetheExamsImagelinktonavigatetotheExamspage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6041996468,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Click on the Exams Image link",
+            "match": {
+              "location": "verifyExamPageContents.ClickontheExamsImagelink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 70069252,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User can see the Exams page with all the product which is present in Exams",
+            "match": {
+              "location": "verifyExamPageContents.UsercanseetheExamspagewithalltheproductwhichispresentinExams()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 131900816,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User can see the Exams filter checked by Default in the Filters Category list",
+            "match": {
+              "location": "verifyExamPageContents.UsercanseetheExamsfiltercheckedbyDefaultintheFiltersCategorylist()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "To Verify the content of Exam category in USGBC Online Portal.",
+    "description": "",
+    "id": "to-verify-the-content-of-exam-category-in-usgbc-online-portal.",
+    "keyword": "Feature",
+    "uri": "G:/USGBC_Katalon-master/BddAutomation.prj/Include/features/USGBC/Store/Exam/verifyExamPageContents.feature",
+    "tags": []
+  }
+]
