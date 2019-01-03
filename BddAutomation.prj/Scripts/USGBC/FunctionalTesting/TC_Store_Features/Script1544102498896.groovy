@@ -16,12 +16,12 @@ import common.CucumberPAFrunner
 
 
 
-CucumberKW.runWithCucumberRunner(CucumberPAFrunner.class)
-CustomKeywords.'reports.Report.getInstance'()
+//CucumberKW.runWithCucumberRunner(CucumberPAFrunner.class)
+//CustomKeywords.'reports.Report.getInstance'()
 
 
 
-//CucumberKW.runFeatureFile('Include/features/USGBC/Store/Apps/verifyAppPageContents.feature')
+CucumberKW.runFeatureFile('Include/features/USGBC/Store/Apps/verifyAppPageContents.feature')
 //CucumberKW.runFeatureFile('Include/features/USGBC/Store/Exam/verifyExamPageContents.feature')
 
 
