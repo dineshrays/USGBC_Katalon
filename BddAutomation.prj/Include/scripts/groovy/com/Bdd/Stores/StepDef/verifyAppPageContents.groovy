@@ -62,7 +62,7 @@ class verifyAppPageContents {
 
 			boolean myResult =  WebUI.verifyElementPresent(findTestObject('Page_USGBC homepage  USGBC/a_Store'),20)
 
-
+			
 			if(myResult) {
 				println "Store is found"
 			}
@@ -93,7 +93,7 @@ class verifyAppPageContents {
 	}
 
 
-	//----------------------------------------------------------------------------------------------------------
+	//-----------------------------------Scenario- 1-------------------------------------------------------------
 
 
 	@Given("User can see the APPS Image link to navigate to the APPS page")
@@ -106,8 +106,16 @@ class verifyAppPageContents {
 
 	@When("Click on the APPS Image link")
 	def ClickontheAPPSImagelink() {
-
-		WebUI.click(findTestObject('Page_Store  U.S. Green Building Cou/img'))
+		try {
+			WebUI.click(findTestObject('Object Repository/Apps/Apps_Folder/Page_Store  U.S. Green Building Cou/img'))
+			//WebUI.click(findTestObject('Page_Store  U.S. Green Building Cou/img'))
+			println("Button Click Response  : ");
+		}
+		catch (Exception ex) {
+			println("Button not found in the URL , Test Failed");
+		}
+		
+		//WebUI.click(findTestObject('Page_Store  U.S. Green Building Cou/img'))
 	}
 
 	@Then("User can see the APPS page with all the product which is present in APPS")
@@ -139,12 +147,13 @@ class verifyAppPageContents {
 		boolean myResult = WebUI.verifyElementPresent(findTestObject('Object Repository/Apps_Folder/Page_U.S. Green Building Council/div_Categories AppsEducationEx'))
 
 	}
-
+	
+//-----------------------------------Scenario- 2-------------------------------------------------------------
 
 	@Given("user can see the search bar to search for products")
 	def usercanseethesearchbartosearchforproducts() {
 
-		WebUI.verifyElementPresent(findTestObject('Object Repository/AppsContentVerify/Page_U.S. Green Building Council/input_Store products_title'), 0)
+		WebUI.verifyElementPresent(findTestObject('Object Repository/Apps/AppsContentVerify/Page_U.S. Green Building Council/input_Store products_title'), 0)
 
 	}
 
@@ -152,13 +161,13 @@ class verifyAppPageContents {
 	@When("user give (.*) in search bar to search")
 	def  usergiveinputinsearchbartosearch(String input) {
 
-		WebUI.setText(findTestObject('Object Repository/AppsContentVerify/Page_U.S. Green Building Council/input_Store products_title'), input)
+		WebUI.setText(findTestObject('Object Repository/Apps/AppsContentVerify/Page_U.S. Green Building Council/input_Store products_title'), input)
 	}
 
 	@When("user click on the search image")
 	def  userclickonthesearchimage() {
 
-		WebUI.click(findTestObject('Object Repository/AppsContentVerify/Page_U.S. Green Building Council/input_Store products_jumbo-sea'))
+		WebUI.click(findTestObject('Object Repository/Apps/AppsContentVerify/Page_U.S. Green Building Council/input_Store products_jumbo-sea'))
 
 	}
 
@@ -167,19 +176,19 @@ class verifyAppPageContents {
 	def usercanseerelatedproductsastheinput(String input) {
 		if(input=='tap')
 		{
-			WebUI.verifyElementClickable(findTestObject('Object Repository/AppsContentVerify/Page_U.S. Green Building Council/a_IES TaP for LEED'))
+			WebUI.verifyElementClickable(findTestObject('Object Repository/Apps/AppsContentVerify/Page_U.S. Green Building Council/a_IES TaP for LEED'))
 		}
 		else if(input == 'trane')
 		{
-			WebUI.verifyElementClickable(findTestObject('Object Repository/AppsContentVerify/Page_U.S. Green Building Council/a_Trane TRACE 700 apps for LEE'))
+			WebUI.verifyElementClickable(findTestObject('Object Repository/Apps/AppsContentVerify/Page_U.S. Green Building Council/a_Trane TRACE 700 apps for LEE'))
 		}
 		else if(input == 'Autodesk')
 		{
-			WebUI.verifyElementClickable(findTestObject('Object Repository/AppsContentVerify/Page_U.S. Green Building Council/a_Autodesk Apps for LEED Autom'))
+			WebUI.verifyElementClickable(findTestObject('Object Repository/Apps/AppsContentVerify/Page_U.S. Green Building Council/a_Autodesk Apps for LEED Autom'))
 		}
 		else if(input == 'tracker')
 		{
-			WebUI.verifyElementClickable(findTestObject('Object Repository/AppsContentVerify/Page_U.S. Green Building Council/a_Tracker Plus for LEED'))
+			WebUI.verifyElementClickable(findTestObject('Object Repository/Apps/AppsContentVerify/Page_U.S. Green Building Council/a_Tracker Plus for LEED'))
 		}
 		else
 		{
@@ -194,7 +203,7 @@ class verifyAppPageContents {
 	@Given("User can see the Categories List with checkbox option")
 	def UsercanseetheCategoriesListwithcheckboxoption() {
 		try {
-			boolean myResult = WebUI.verifyElementPresent(findTestObject('Object Repository/Apps_Edu_Exam/Page_U.S. Green Building Council/ul_AppsEducationExamsGivingHar'))
+			boolean myResult = WebUI.verifyElementPresent(findTestObject('Object Repository/Apps/Apps_Edu_Exam/Page_U.S. Green Building Council/ul_AppsEducationExamsGivingHar'))
 
 			if(myResult) {
 				println "User can see Education Image"
@@ -211,10 +220,10 @@ class verifyAppPageContents {
 	@When("Select on EDUCATION and EXAMS")
 	def SelectonEDUCATIONandEXAMS() {
 		try {
+			
+			WebUI.check(findTestObject('Object Repository/Apps/Apps_Edu_Exam/Page_U.S. Green Building Council/input_Education_category'))
 
-			WebUI.click(findTestObject('Object Repository/Apps_Edu_Exam/Page_U.S. Green Building Council/input_Education_category'),20)
-
-			WebUI.click(findTestObject('Object Repository/Apps_Edu_Exam/Page_U.S. Green Building Council/input_Exams_category'),20)
+			WebUI.check(findTestObject('Object Repository/Apps/Apps_Edu_Exam/Page_U.S. Green Building Council/input_Exams_category'),20)
 			println("Button Click Response  : ");
 		}
 		catch (Exception ex) {
@@ -225,7 +234,7 @@ class verifyAppPageContents {
 	@Then("User can see the selected categories page with all the product which is present in APPS, EDUCATION and EXAMS")
 	def Usercanseetheselectedcategoriespagewithalltheproductwhichispresentinselectedcategories() {
 		try {
-			boolean myResult =  WebUI.verifyElementPresent(findTestObject('Object Repository/Apps_Edu_Exam/Page_U.S. Green Building Council/div_.bg-grid .bg-entry .course'))
+			boolean myResult =  WebUI.verifyElementPresent(findTestObject('Object Repository/Apps/Apps_Edu_Exam/Page_U.S. Green Building Council/div_.bg-grid .bg-entry .course'))
 			if(myResult) {
 				println "Contents loaded for Education button"
 			}
@@ -244,9 +253,9 @@ class verifyAppPageContents {
 	def SelectonEDUCATIONandGIVING() {
 		try {
 
-			WebUI.click(findTestObject('Object Repository/Apps_Edu_Giving/Page_U.S. Green Building Council/input_Education_category'),20)
+			WebUI.check(findTestObject('Object Repository/Apps_Edu_Giving/Page_U.S. Green Building Council/input_Education_category'),20)
 
-			WebUI.click(findTestObject('Object Repository/Apps_Edu_Giving/Page_U.S. Green Building Council/input_Giving_category'),20)
+			WebUI.check(findTestObject('Object Repository/Apps_Edu_Giving/Page_U.S. Green Building Council/input_Giving_category'),20)
 			println("Button Click Response  : ");
 		}
 		catch (Exception ex) {
@@ -431,7 +440,20 @@ class verifyAppPageContents {
 		}
 	}
 
+	//--------------------------------Scenario A10--------------------------------------
 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 
 }
