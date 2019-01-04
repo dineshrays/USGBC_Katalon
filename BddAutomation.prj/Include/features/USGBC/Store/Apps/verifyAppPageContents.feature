@@ -90,7 +90,7 @@ Scenario: To verify the contents in the Apps page when APPS, EDUCATION and EXAMS
 	Given Click on the APPS Image link
 	And User can see the Categories List with checkbox option 
 	When Select on EDUCATION and EXAMS
-	Then User can see the selected categories page with all the product which is present in APPS, EDUCATION and EXAMS   
+	Then User can see the selected categories page with all the product which is present in APPS, EDUCATION and EXAM 
    
 	
 	
