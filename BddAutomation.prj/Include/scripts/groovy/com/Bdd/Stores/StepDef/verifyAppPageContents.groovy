@@ -415,10 +415,10 @@ class verifyAppPageContents {
 	@When("Select on EDUCATION and MERCHANDISE")
 	def SelectonEDUCATIONandMERCHANDISE() {
 		try {
-			////WebUI.check(findTestObject('Object Repository/Apps/Apps_Edu_Merchandise/Page_U.S. Green Building Council/input_Education_category'))
-			//WebUI.check(findTestObject('Object Repository/Apps/Apps_Edu_Merchandise/Page_U.S. Green Building Council/input_Education_category'))
+			WebUI.check(findTestObject('Object Repository/Apps/Apps_Edu_Merchandise/Page_U.S. Green Building Council/input_Education_category'))
+			
 			WebUI.check(findTestObject('Object Repository/Apps/Apps_Edu_Merchandise/Page_U.S. Green Building Council/input_Merchandise_category'))
-			//WebUI.check(findTestObject('Object Repository/Apps/Apps_Edu_Merchandise/Page_U.S. Green Building Council/input_Merchandise_category'))
+			
 
 			println("Button Click Response  : ");
 		}
