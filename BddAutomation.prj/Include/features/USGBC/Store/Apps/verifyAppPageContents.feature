@@ -78,6 +78,13 @@ Scenario: To verify the contents in the Apps page when APPS, EDUCATION and EXAMS
 	When Select on EDUCATION and PUBLICATIONS
 	Then User can see the selected categories page with all the product which is present in APPS, EDUCATION and PUBLICATIONS	
 
+#Scenario-9
+	Scenario: To verify the contents in the Apps pagewhen APPS, EDUCATION and MERCHANDISE Checked
+	Given Click on the APPS Image link
+	And User can see the Categories List with checkbox option 
+	When Select on EDUCATION and MERCHANDISE
+	Then User can see the selected categories page with all the product which is present in APPS, EDUCATION and MERCHANDISE
+
 
 
 	
