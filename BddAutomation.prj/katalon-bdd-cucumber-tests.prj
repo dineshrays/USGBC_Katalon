@@ -13,7 +13,7 @@
          </sourceFolderConfiguration>
       </sourceFolderList>
       <systemFolderList>
-         <systemFolderConfiguration>
+         <systemFoldersConfiguration>
             <url>Include/scripts/groovy</url>
          </systemFolderConfiguration>
          <systemFolderConfiguration>
